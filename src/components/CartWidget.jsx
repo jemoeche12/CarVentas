@@ -1,20 +1,16 @@
+import carritoCompras from '../assets/icons/carritoCompras.png'
 const Cart = () => {
+  
   return (
-    <>
-      <div>
-        <a>
-          <img className="cart" src="src/assets/icons/cart.png" alt="" />
-        </a>
-        <span>0</span>
-      </div>
-      <style>
-        {`
-            .cart{
-              width: 80px;
-            }
-            `}
-      </style>
-    </>
+    <div className="flex items-center space-x-2">
+      <a  className="cursor-pointer">
+        <img
+          className="cart w-16 md:w-20"
+          src={carritoCompras}
+          alt="Carrito"
+        />
+      </a>
+    </div>
   );
 };
 

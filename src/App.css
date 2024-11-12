@@ -1,9 +1,60 @@
-#root {
-  max-width: 1280px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
   margin: 0;
-  padding: 0;
-  text-align: center;
 }
 
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+}
 
+.navBar .log {
+  width: 50px;
+}
 
+.navBar .items-navBar {
+  display: flex;
+  gap: 20px;
+}
+
+.navBar .items-navBar li {
+  list-style: none;
+}
+
+.navBar .items-navBar a {
+  text-decoration: none;
+  color: white;
+}
+
+.item-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.items-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.items-list div {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.items-list div h2 {
+  font-size: 1.2em;
+}
+
+.items-list div p {
+  color: #666;
+}

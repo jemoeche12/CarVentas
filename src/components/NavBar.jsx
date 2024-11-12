@@ -1,51 +1,33 @@
-import Cart from "./CartWidget"
-
+import { Link } from 'react-router-dom'
+import CartWidget from './CartWidget'
+import logo from '../assets/icons/car.png'
+import carritoCompras from '../assets/icons/carritoCompras.png'
 
 const NavBar = () => {
     return (
       <>
-        <nav className="navBar">
-            <img className="log" src="src/assets/icons/car.png" alt="" />
-            <ul className="items-navBar">
-                <li><a>Comprar</a></li>
-                <li><a>Vender</a></li>
-                <li><a>Guardados</a></li>
-            </ul>
-            <Cart />
+        <nav className="bg-blue-900 text-white p-4">
+            <div className="max-w-7xl mx-auto flex justify-between items-center">
+                <Link to="/" className="flex items-center space-x-2">
+                    <img className="w-12" src={logo} alt="CarVentas Logo" />
+                    <span className="text-xl font-bold">CarVentas</span>
+                </Link>
+                <div className="hidden md:flex space-x-6">
+                    <Link to="/category/vehiculos" className="hover:text-gray-300 transition-colors">Vehículos</Link>
+                    <Link to="/category/motos" className="hover:text-gray-300 transition-colors">Motos</Link>
+                    <Link to="/category/accesorios" className="hover:text-gray-300 transition-colors">Accesorios</Link>
+                </div>
+                <CartWidget />
+            </div>
+            {/* Mobile menu button */}
+            <div className="md:hidden flex items-center">
+                <button className="text-white focus:outline-none">
+                    <img src={carritoCompras} alt="Menu" />
+                </button>
+            </div>
         </nav>
-        <style>
-          {
-            `
-            .navBar{
-              width: 1280px;
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-              margin: 0 10%;     
-              }
-            .log{
-              width: 60px;
-            }
-            .items-navBar{
-                display: flex;
-                gap: 40px;
-              }
-            li{
-              list-style: none;
-              text-transform: uppercase;
-
-            }
-            a{
-              text-decoration: none;
-              color: white;
-              font-size: 20px;
-            }
-            
-            `
-          }
-        </style>
-      </>  
+      </>
     )
 }
 
-export default NavBar
+export default NavBar;

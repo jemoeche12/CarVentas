@@ -1,0 +1,78 @@
+{
+    "vehicles": [
+      {
+        "id": "sedan-001",
+        "category": "sedan",
+        "make": "Toyota",
+        "model": "Camry",
+        "year": 2023,
+        "price": 24000,
+        "description": "Un sedán confiable y eficiente en consumo de combustible, perfecto para conducir en la ciudad.",
+        "image": "/src/assets/img/carmy.webp"
+      },
+      {
+        "id": "sedan-002",
+        "category": "sedan",
+        "make": "Honda",
+        "model": "Accord",
+        "year": 2022,
+        "price": 22000,
+        "description": "Un sedán elegante y cómodo con características avanzadas de seguridad.",
+        "image": "/src/assets/img/hondaAcord.jpg"
+      },
+      {
+        "id": "suv-001",
+        "category": "suv",
+        "make": "Ford",
+        "model": "Escape",
+        "year": 2023,
+        "price": 30000,
+        "description": "Una SUV versátil y espaciosa para viajes familiares y aventuras al aire libre.",
+        "image": "/src/assets/img/fordEscape.webp"
+      },
+      {
+        "id": "suv-002",
+        "category": "suv",
+        "make": "Chevrolet",
+        "model": "Equinox",
+        "year": 2023,
+        "price": 28000,
+        "description": "Una SUV mediana que ofrece un equilibrio entre comodidad y utilidad.",
+        "image": "/src/assets/img/equinox.jpg"
+      },
+      {
+        "id": "truck-001",
+        "category": "truck",
+        "make": "Ram",
+        "model": "1500",
+        "year": 2023,
+        "price": 35000,
+        "description": "Una camioneta potente con excelente capacidad de remolque.",
+        "image": "/src/assets/img/ram1500.png"
+      },
+      {
+        "id": "truck-002",
+        "category": "truck",
+        "make": "Ford",
+        "model": "F-150",
+        "year": 2023,
+        "price": 37000,
+        "description": "Una camioneta de alto rendimiento conocida por su durabilidad y robustez.",
+        "image": "/src/assets/img/Ford-F_150.jpg"
+      }
+    ],
+    "categories": [
+      {
+        "id": "sedan",
+        "name": "Sedan"
+      },
+      {
+        "id": "suv",
+        "name": "SUV"
+      },
+      {
+        "id": "truck",
+        "name": "Truck"
+      }
+    ]
+  }

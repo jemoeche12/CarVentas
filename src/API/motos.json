@@ -1,0 +1,104 @@
+{
+    "motos": [
+      {
+        "id": "moto-001",
+        "category": "moto",
+        "make": "Harley-Davidson",
+        "model": "Sportster S",
+        "year": 2023,
+        "price": 15000,
+        "description": "Una moto de alto rendimiento, perfecta para los entusiastas de las motocicletas.",
+        "image": "/src/assets/img/harley.png"
+      },
+      {
+        "id": "moto-002",
+        "category": "moto",
+        "make": "Yamaha",
+        "model": "MT-07",
+        "year": 2023,
+        "price": 8500,
+        "description": "Una moto deportiva versátil, ideal para la ciudad y carreteras.",
+        "image": "/src/assets/img/yamaha.jpg"
+      },
+      {
+        "id": "moto-003",
+        "category": "moto",
+        "make": "Ducati",
+        "model": "Panigale V4",
+        "year": 2023,
+        "price": 24000,
+        "description": "Una moto de carreras, diseñada para una experiencia de conducción intensa.",
+        "image": "/src/assets/img/ducati.jpg"
+      },
+      {
+        "id": "moto-004",
+        "category": "moto",
+        "make": "Kawasaki",
+        "model": "Ninja 400",
+        "year": 2023,
+        "price": 7500,
+        "description": "Una moto deportiva compacta y poderosa, ideal para principiantes.",
+        "image": "/src/assets/img/kawasaky.png"
+      },
+      {
+        "id": "moto-005",
+        "category": "moto",
+        "make": "Honda",
+        "model": "CBR500R",
+        "year": 2023,
+        "price": 8000,
+        "description": "Una moto deportiva con gran maniobrabilidad y un diseño agresivo.",
+        "image": "/src/assets/img/hondaMoto.png"
+      },
+      {
+        "id": "moto-006",
+        "category": "moto",
+        "make": "BMW",
+        "model": "S1000RR",
+        "year": 2023,
+        "price": 22000,
+        "description": "Una moto superbike, construida para velocidad y rendimiento.",
+        "image": "/src/assets/img/bmw.webp"
+      },
+      {
+        "id": "moto-007",
+        "category": "moto",
+        "make": "Triumph",
+        "model": "Street Triple RS",
+        "year": 2023,
+        "price": 13000,
+        "description": "Una moto de calle con un motor potente y un diseño atractivo.",
+        "image": "/src/assets/img/triumph.webp"
+      },
+      {
+        "id": "moto-008",
+        "category": "moto",
+        "make": "Suzuki",
+        "model": "GSX-R750",
+        "year": 2023,
+        "price": 12000,
+        "description": "Una moto deportiva de 750cc con gran estabilidad y potencia.",
+        "image": "/src/assets/img/suzuki.webp"
+      },
+      {
+        "id": "moto-009",
+        "category": "moto",
+        "make": "Indian",
+        "model": "Chief Dark Horse",
+        "year": 2023,
+        "price": 21000,
+        "description": "Una cruiser de gran tamaño, perfecta para largos viajes por carretera.",
+        "image": "/src/assets/img/indian.jpg"
+      },
+      {
+        "id": "moto-010",
+        "category": "moto",
+        "make": "Royal Enfield",
+        "model": "Interceptor 650",
+        "year": 2023,
+        "price": 18000,
+        "description": "Una moto de carretera con un motor de 650cc, ideal para viajes largos.",
+        "image": "/src/assets/img/royal.png"
+      }
+    ]
+}

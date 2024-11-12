@@ -1,0 +1,84 @@
+{
+    "accesorios": [
+        {
+            "id": "acc-001",
+            "category": "interior",
+            "name": "Tapetes de Lujo",
+            "price": 89.99,
+            "description": "Juego de tapetes de alta calidad para proteger el interior de tu vehículo.",
+            "image": "/src/assets/img/tapetes.jpg"
+        },
+        {
+            "id": "acc-002", 
+            "category": "interior",
+            "name": "Cámara de Retroceso",
+            "price": 149.99,
+            "description": "Cámara HD para asistencia al estacionar con visión nocturna.",
+            "image": "/src/assets/img/camara.jpg"
+        },
+        {
+            "id": "acc-003",
+            "category": "interior", 
+            "name": "Organizador de Maletero",
+            "price": 45.99,
+            "description": "Organizador plegable con múltiples compartimentos para el maletero.",
+            "image": "/src/assets/img/organizador.jpg"
+        },
+        {
+            "id": "acc-004",
+            "category": "interior",
+            "name": "Cargador USB Dual",
+            "price": 24.99,
+            "description": "Cargador rápido con dos puertos USB para dispositivos móviles.",
+            "image": "/src/assets/img/cargador.jpg"
+        },
+        {
+            "id": "acc-005",
+            "category": "interior",
+            "name": "Parasol Personalizado",
+            "price": 34.99,
+            "description": "Parasol reflectante con ajuste perfecto para tu modelo de vehículo.",
+            "image": "/src/assets/img/reflectante.jpg"
+        },
+        {
+            "id": "acc-006",
+            "category": "seguridad",
+            "name": "Casco Integral",
+            "price": 199.99,
+            "description": "Casco de seguridad integral con certificación DOT y ventilación avanzada.",
+            "image": "/src/assets/img/casco.avif"
+        },
+        {
+            "id": "acc-007",
+            "category": "seguridad",
+            "name": "Guantes de Cuero",
+            "price": 79.99,
+            "description": "Guantes de cuero con protección para nudillos y palma reforzada.",
+            "image": "/src/assets/img/guantes.webp"
+        },
+        {
+            "id": "acc-008",
+            "category": "seguridad",
+            "name": "Chaqueta Protectora",
+            "price": 159.99,
+            "description": "Chaqueta con protecciones en hombros, codos y espalda.",
+            "image": "/src/assets/img/chaqueta.jpg"
+        },
+        {
+            "id": "acc-009",
+            "category": "seguridad",
+            "name": "Candado de Disco",
+            "price": 49.99,
+            "description": "Candado de seguridad con alarma para disco de freno.",
+            "image": "/src/assets/img/candado.jpg"
+        },
+        {
+            "id": "acc-010",
+            "category": "seguridad",
+            "name": "Alforjas Laterales",
+            "price": 129.99,
+            "description": "Par de alforjas impermeables con sistema de montaje rápido.",
+            "image": "/src/assets/img/alforja.webp"
+        }
+    ]
+}
