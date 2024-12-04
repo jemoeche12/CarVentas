@@ -5,7 +5,7 @@ export const VehicleCard = ({ item }) => {
     <div className="border rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow">
       <img 
         src={item.image} 
-        alt={`${item.make} ${item.model}`} 
+        alt={`${item.make}`} 
         className="w-full h-48 object-cover rounded-md mb-4" 
       />
       <h2 className="text-xl font-semibold">{item.make} {item.model}</h2>

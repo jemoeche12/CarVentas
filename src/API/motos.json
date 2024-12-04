@@ -8,7 +8,7 @@
         "year": 2023,
         "price": 15000,
         "description": "Una moto de alto rendimiento, perfecta para los entusiastas de las motocicletas.",
-        "image": "/src/assets/img/harley.png"
+        "image": "img/harley.png"
       },
       {
         "id": "moto-002",

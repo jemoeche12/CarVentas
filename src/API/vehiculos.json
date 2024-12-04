@@ -8,7 +8,7 @@
         "year": 2023,
         "price": 24000,
         "description": "Un sedán confiable y eficiente en consumo de combustible, perfecto para conducir en la ciudad.",
-        "image": "/src/assets/img/carmy.webp"
+        "image": "//img/carmy.webp"
       },
       {
         "id": "sedan-002",
