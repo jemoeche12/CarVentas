@@ -12,8 +12,13 @@ const ItemDetail = ({ item }) => {
       addItem({
         id: item.id,
         name: `${item.make} ${item.model}`,
+        make: item.make,
+        model: item.model,
         price: item.price,
-        quantity,
+        year: item.year,
+        image: item.image,
+        description: item.description,
+        quantity: quantity,
       });
     }
   };

@@ -54,28 +54,29 @@ export async function getProducts(){
     }
     
 
-export async function filterbyCategory(category){
-    try{
-        const filteredQuery = query(collection(db, 'products'), where('category', '===', 'vehiculo'),
-        where('category', '===', 'moto'),
-        where('category', '===', 'accesorio')
-    );
+export async function filterbyCategory(category) {
+    try {
+        const filteredQuery = query(
+            collection(db, 'products'), 
+            where('category', '==', category)
+        );
 
-    const querySnapshot = await getDocs(filteredQuery);
-    if(querySnapshot.size !== 0){
-        const productList = querySnapshot.docs.map((docu) =>{
-            return {
-                id: docu.id,
-                ...docu.data(),
-            };
-        });
-        return productList;
-    }else{
-        console.log('vacio')
-    }
-
-    } catch(error){
-        console.error('problemas en el servidor', error)
+        const querySnapshot = await getDocs(filteredQuery);
+        if (querySnapshot.size !== 0) {
+            const productList = querySnapshot.docs.map((docu) => {
+                return {
+                    id: docu.id,
+                    ...docu.data(),
+                };
+            });
+            return productList;
+        } else {
+            console.log('No se encontraron productos en esta categoría');
+            return [];
+        }
+    } catch (error) {
+        console.error('Error al filtrar por categoría:', error);
+        throw error;
     }
 }
 

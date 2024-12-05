@@ -6,7 +6,6 @@ const CartWidget = () => {
   const { cart } = useContext(CartContext);
 
   const totalItems = cart.reduce((acc, item) => acc + item.quantity, 0);
-
   return (
     <div className="flex items-center space-x-2 w-20">
       <button>
