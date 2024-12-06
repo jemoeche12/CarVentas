@@ -13,12 +13,12 @@ const NavBar = () => {
           </Link>
           <div className="hidden md:flex space-x-6">
             <Link
-              to="/category/vehiculos"
+              to="/category/vehiculo"
               className="hover:text-gray-300 transition-colors">
               Vehículos
             </Link>
             <Link
-              to="/category/motos"
+              to="/category/moto"
               className="hover:text-gray-300 transition-colors">
               Motos
             </Link>

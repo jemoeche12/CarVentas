@@ -1,14 +1,32 @@
 import { VehicleCard } from './common/VehicleCard.jsx';
 import { useState, useEffect } from 'react';
 import { getProducts } from "../firebase/firebase";
-
+import { useParams } from 'react-router-dom';
+import Spinner from './Spinner';
 
 const ItemListContainer = ({ greeting }) => {
   const [myproducts, setMyProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const { category } = useParams();
+
   useEffect(() => {
-    
-    getProducts().then((products) => setMyProducts(products));
-  }, []);
+    setLoading(true);
+    getProducts().then((products) => {
+      if (category) {
+        const filteredProducts = products.filter(
+          (product) => product.category === category
+        );
+        setMyProducts(filteredProducts);
+      } else {
+        setMyProducts(products);
+      }
+      setLoading(false);
+    });
+  }, [category]);
+  
+  if (loading) {
+    return <Spinner />;
+  }
 
   return (
     <>
