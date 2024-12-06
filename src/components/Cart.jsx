@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { CartContext } from "../context/CartContext";
-import MessageAlert from "./MessageAlert";
+import MessageAlert from './MessageAlert';
 import MessageDeleteCarrito from "./messageDeleteCarrito";
 
 const Cart = () => {
